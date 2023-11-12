@@ -16,7 +16,7 @@ const list = [
 	},
 	{
 		image: image2,
-		text: "地上へ上がり、真っ直ぐ進むと右手にApple Storeがあります。その角を右に曲がってください。",
+		text: "地上へ上がると、右手にApple Storeがあります。真っすぐ進み、Apple Storeの角を右に曲がってください。",
 	},
 	{
 		image: image4,
@@ -24,7 +24,7 @@ const list = [
 	},
 	{
 		image: image5,
-		text: "すぐ左手にAfternoon Teaがあります。そこを右に曲がってください。",
+		text: "すぐ左手にAfternoon Teaがあります。そこを向かいの右に曲がってください。",
 	},
 	{
 		image: image7,
@@ -59,8 +59,8 @@ root.render(
       </ul>
       <div className="thank">
         式場内にはクローク、ベビーケア、<br />
-        ゲスト用更衣室・着付室がございますので、<br />
-        ぜひご利用ください :)
+        ゲスト用更衣室・着付室(お色直しで使用可)が<br />
+        ございますので、ぜひご利用ください :)
       </div>
     </div>
   </>
