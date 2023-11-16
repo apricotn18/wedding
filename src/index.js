@@ -16,7 +16,7 @@ const list = [
 	},
 	{
 		image: image2,
-		text: "地上へ上がると、右手にApple Storeがあります。真っすぐ進み、Apple Storeの角を右に曲がってください。",
+		text: "地上へ上がると、すぐ右手にApple Storeがあります。真っすぐ進み、Apple Storeの角を右に曲がってください。",
 	},
 	{
 		image: image4,
@@ -24,7 +24,7 @@ const list = [
 	},
 	{
 		image: image5,
-		text: "すぐ左手にAfternoon Teaがあります。そこを向かいの右に曲がってください。",
+		text: "曲がるとすぐ左手にAfternoon Teaがあります。そこのT字路を右に曲がってください。",
 	},
 	{
 		image: image7,
@@ -47,7 +47,6 @@ root.render(
     <div className="wrapper">
       <header>
         <h1><span>笠原家・野崎家</span><br />シャルマンシーナ東京 道案内</h1>
-        <img src="https://yuji-kyoko.weddingday.jp/template/v3_nuance_bluegreen/images/message_under_title.svg" width="65" height="20" alt="---" />
       </header>
       <ul>
         {list.map((item, index) =>
@@ -59,8 +58,8 @@ root.render(
       </ul>
       <div className="thank">
         式場内にはクローク、ベビーケア、<br />
-        ゲスト用更衣室・着付室(メイク直しで使用可)<br />
-        がございますので、ぜひご利用ください :)
+        ゲスト用更衣室・着付室がございますので、<br />
+        ぜひご利用ください :)
       </div>
     </div>
   </>
