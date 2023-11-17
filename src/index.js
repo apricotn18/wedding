@@ -24,7 +24,7 @@ const list = [
 	},
 	{
 		image: image5,
-		text: "曲がるとすぐ左手にAfternoon Teaがあります。Afternoon Teaの目の前にあるT字路を右に曲がってください。",
+		text: "曲がるとすぐ左手にAfternoon Teaがあります。Afternoon Teaの前にあるT字路を右に曲がってください。",
 	},
 	{
 		image: image7,
