@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./reset.scss";
 import "./style.scss";
 import image1 from "./img/1.jpg";
@@ -45,11 +44,9 @@ const list = [
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-	<BrowserRouter>
-		<Routes>
-			<Route path="/" Component={Home} />
-		</Routes>
-	</BrowserRouter>
+	<>
+		<Home />
+	</>
 );
 
 function Home () {
